@@ -1,0 +1,5196 @@
+{
+  "meta": {
+    "schema_version": "v2",
+    "language": "en-US",
+    "timezone": "Asia/Jerusalem",
+    "generated_at": "2025-09-19T18:34:08.833250",
+    "anchors": {
+      "must": [
+        "New York",
+        "Walt Disney World",
+        "Dallas",
+        "Denver",
+        "Grand Canyon",
+        "Las Vegas",
+        "Yosemite",
+        "San Diego",
+        "Los Angeles",
+        "San Francisco",
+        "Cupertino"
+      ],
+      "nice": [
+        "Shenandoah NP",
+        "Smoky Mountains",
+        "New Orleans",
+        "Hoover Dam",
+        "Portland",
+        "Seattle",
+        "Glacier NP",
+        "Minneapolis",
+        "Chicago"
+      ]
+    },
+    "notes": [
+      "All points/segments included per planned route. Coordinates and polylines left empty intentionally for later precise mapping.",
+      "The site will warn with a dashed line for empty polylines; this is OK for initial publishing.",
+      "Completed enrichment 2025-09-21T12:39:05.282656"
+    ]
+  },
+  "days": [
+    {
+      "title": "Day 1: New York — City day 1",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "nyc-hotel",
+          "name": "Hotel (NYC)",
+          "type": "lodging",
+          "coords": null,
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Base for NYC first nights.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": null,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 55,
+            "basis": "rv hookup/night"
+          }
+        },
+        {
+          "id": "times-square",
+          "name": "Times Square",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.758,
+            "lng": -73.9855
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Evening lights and vibe.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "central-park",
+          "name": "Central Park",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.7829,
+            "lng": -73.9654
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "Central Park — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "broadway-evening",
+          "name": "Broadway Show",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.759,
+            "lng": -73.9845
+          },
+          "arrival_time": "19:00",
+          "stay_duration_min": 180,
+          "description": "Reserve tickets in advance.",
+          "links": {
+            "tickets": "https://www.broadway.com/"
+          },
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              40.758,
+              -73.9855
+            ],
+            [
+              40.759,
+              -73.9845
+            ]
+          ],
+          "distance_km": 0.1,
+          "duration_min": 1,
+          "tolls": null,
+          "notes": "Local walking/metro day."
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "New York"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 2: New York — City day 2",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "liberty-island",
+          "name": "Statue of Liberty",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.6892,
+            "lng": -74.0445
+          },
+          "arrival_time": "09:00",
+          "stay_duration_min": 180,
+          "description": "Statue of Liberty — planned stop.",
+          "links": {
+            "tickets": "https://www.statueoflibertytickets.com/"
+          },
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "ellis-island",
+          "name": "Ellis Island",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.6995,
+            "lng": -74.0396
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "Ellis Island — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "wfc-911",
+          "name": "9/11 Memorial & Wall St",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.7115,
+            "lng": -74.0134
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "9/11 Memorial & Wall St — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              40.6892,
+              -74.0445
+            ],
+            [
+              40.7115,
+              -74.0134
+            ]
+          ],
+          "distance_km": 3.6,
+          "duration_min": 48,
+          "tolls": null,
+          "notes": "Ferry + subway + walking."
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "New York"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 3: New York — City day 3",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "moma-or-met",
+          "name": "MoMA or The Met",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.7794,
+            "lng": -73.9632
+          },
+          "arrival_time": null,
+          "stay_duration_min": 150,
+          "description": "MoMA or The Met — planned stop.",
+          "links": {
+            "official": "https://www.metmuseum.org/"
+          },
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "high-line",
+          "name": "High Line",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.7479,
+            "lng": -74.0049
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "High Line — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "chelsea-market",
+          "name": "Chelsea Market",
+          "type": "food",
+          "coords": {
+            "lat": 40.7424,
+            "lng": -74.006
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Chelsea Market — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 4,
+            "basis": "per hour"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "variable"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              40.7794,
+              -73.9632
+            ],
+            [
+              40.7424,
+              -74.006
+            ]
+          ],
+          "distance_km": 5.5,
+          "duration_min": 73,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "New York"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 4: Pick up van — Head south",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "van-pickup",
+          "name": "Van Pickup",
+          "type": "anchor",
+          "coords": null,
+          "arrival_time": "09:00",
+          "stay_duration_min": 60,
+          "description": "Van Pickup — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": null,
+          "city": null,
+          "notes": "Check insurance & mileage bundle.",
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "southbound",
+          "name": "Southbound Drive",
+          "type": "route",
+          "coords": null,
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Leave NYC; aim toward Shenandoah area.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": null,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [],
+          "distance_km": null,
+          "duration_min": 360,
+          "tolls": true,
+          "notes": "NYC → Shenandoah area (flex overnight)."
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 360,
+        "total_train_min": null,
+        "sleep": "On the road"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 5: To Shenandoah NP (Skyline Drive)",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "shenandoah-np",
+          "name": "Shenandoah National Park",
+          "type": "attraction",
+          "coords": {
+            "lat": 38.5866,
+            "lng": -78.379
+          },
+          "arrival_time": null,
+          "stay_duration_min": 240,
+          "description": "Skyline Drive viewpoints, easy trail.",
+          "links": {
+            "official": "https://www.nps.gov/shen/index.htm"
+          },
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 15,
+            "basis": "day lot"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 11,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 35,
+            "basis": "vehicle/day"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [],
+          "distance_km": null,
+          "duration_min": 240,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 240,
+        "total_train_min": null,
+        "sleep": "Shenandoah"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 6: Shenandoah → Smoky Mountains",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "smoky-entry",
+          "name": "Great Smoky Mountains — entry",
+          "type": "attraction",
+          "coords": {
+            "lat": 35.6118,
+            "lng": -83.4895
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Scenic arrival.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 11,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [],
+          "distance_km": null,
+          "duration_min": 420,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 420,
+        "total_train_min": null,
+        "sleep": "Near park"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 7: Smokies → Asheville (Blue Ridge Parkway)",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "blue-ridge",
+          "name": "Blue Ridge Parkway highlights",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 35.6532,
+            "lng": -82.3027
+          },
+          "arrival_time": null,
+          "stay_duration_min": 180,
+          "description": "Overlooks & photo stops.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 10,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "asheville-town",
+          "name": "Asheville",
+          "type": "attraction",
+          "coords": {
+            "lat": 35.5951,
+            "lng": -82.5515
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "Evening downtown.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              35.6532,
+              -82.3027
+            ],
+            [
+              35.5951,
+              -82.5515
+            ]
+          ],
+          "distance_km": 23.4,
+          "duration_min": 240,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 240,
+        "total_train_min": null,
+        "sleep": "Asheville"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 8: Asheville → Orlando (Walt Disney World)",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "clingmans-dome",
+          "name": "Clingmans Dome (optional)",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 35.5629,
+            "lng": -83.4987
+          },
+          "arrival_time": null,
+          "stay_duration_min": 90,
+          "description": "Clingmans Dome (optional) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "orlando-arrival",
+          "name": "Arrive Orlando",
+          "type": "anchor",
+          "coords": {
+            "lat": 28.3852,
+            "lng": -81.5639
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Hotel near Disney.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 12,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              35.5629,
+              -83.4987
+            ],
+            [
+              28.3852,
+              -81.5639
+            ]
+          ],
+          "distance_km": 818.7,
+          "duration_min": 540,
+          "tolls": null,
+          "notes": "Long drive day."
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 540,
+        "total_train_min": null,
+        "sleep": "Orlando"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 9: Walt Disney World — Day 1",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "wdw-day1",
+          "name": "Walt Disney World — Day 1",
+          "type": "attraction",
+          "coords": {
+            "lat": 28.3852,
+            "lng": -81.5639
+          },
+          "arrival_time": null,
+          "stay_duration_min": 600,
+          "description": "Walt Disney World — Day 1 — planned stop.",
+          "links": {
+            "official": "https://disneyworld.disney.go.com/"
+          },
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 12,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [],
+          "distance_km": null,
+          "duration_min": null,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "Orlando"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 10: Walt Disney World — Day 2",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "wdw-day2",
+          "name": "Walt Disney World — Day 2",
+          "type": "attraction",
+          "coords": {
+            "lat": 28.3852,
+            "lng": -81.5639
+          },
+          "arrival_time": null,
+          "stay_duration_min": 600,
+          "description": "Walt Disney World — Day 2 — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 12,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [],
+          "distance_km": null,
+          "duration_min": null,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "Orlando"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 11: Orlando → Cedar Key (sunset)",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "cedar-key",
+          "name": "Cedar Key Boardwalk",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 29.1377,
+            "lng": -83.0308
+          },
+          "arrival_time": null,
+          "stay_duration_min": 90,
+          "description": "Sunset on the boardwalk.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [],
+          "distance_km": null,
+          "duration_min": 180,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 180,
+        "total_train_min": null,
+        "sleep": "Cedar Key"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 12: Cedar Key → New Orleans (Gulf coast)",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "pensacola",
+          "name": "Pensacola stop",
+          "type": "attraction",
+          "coords": {
+            "lat": 30.4213,
+            "lng": -87.2169
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Pensacola stop — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "biloxi",
+          "name": "Biloxi stop",
+          "type": "attraction",
+          "coords": {
+            "lat": 30.396,
+            "lng": -88.8853
+          },
+          "arrival_time": null,
+          "stay_duration_min": 45,
+          "description": "Biloxi stop — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              30.4213,
+              -87.2169
+            ],
+            [
+              30.396,
+              -88.8853
+            ]
+          ],
+          "distance_km": 160.0,
+          "duration_min": 540,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 540,
+        "total_train_min": null,
+        "sleep": "New Orleans"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 13: New Orleans — City day",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "french-quarter",
+          "name": "French Quarter",
+          "type": "attraction",
+          "coords": {
+            "lat": 29.9584,
+            "lng": -90.0645
+          },
+          "arrival_time": null,
+          "stay_duration_min": 180,
+          "description": "French Quarter — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "mississippi",
+          "name": "Mississippi Riverfront",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 29.9536,
+            "lng": -90.0659
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Live music options at night.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              29.9584,
+              -90.0645
+            ],
+            [
+              29.9536,
+              -90.0659
+            ]
+          ],
+          "distance_km": 0.6,
+          "duration_min": 8,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "New Orleans"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 14: New Orleans → Houston",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "enroute-stops",
+          "name": "Baton Rouge/Lafayette short stops",
+          "type": "attraction",
+          "coords": null,
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Baton Rouge/Lafayette short stops — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": null,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [],
+          "distance_km": null,
+          "duration_min": 330,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 330,
+        "total_train_min": null,
+        "sleep": "Houston"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 15: Houston — Space/Museums",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "space-center",
+          "name": "Space Center Houston",
+          "type": "attraction",
+          "coords": {
+            "lat": 29.5502,
+            "lng": -95.097
+          },
+          "arrival_time": null,
+          "stay_duration_min": 210,
+          "description": "Space Center Houston — planned stop.",
+          "links": {
+            "official": "https://spacecenter.org/"
+          },
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "museum-district",
+          "name": "Museum District",
+          "type": "attraction",
+          "coords": {
+            "lat": 29.7253,
+            "lng": -95.39
+          },
+          "arrival_time": null,
+          "stay_duration_min": 180,
+          "description": "Museum District — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 4,
+            "basis": "per hour"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 25,
+            "basis": "adult ticket"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              29.5502,
+              -95.097
+            ],
+            [
+              29.7253,
+              -95.39
+            ]
+          ],
+          "distance_km": 34.4,
+          "duration_min": 459,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "Houston"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 16: Houston → Dallas",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "northbound",
+          "name": "Northbound Drive",
+          "type": "route",
+          "coords": null,
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Northbound Drive — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": null,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [],
+          "distance_km": null,
+          "duration_min": 240,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 240,
+        "total_train_min": null,
+        "sleep": "Dallas"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 17: Dallas — City day",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "sixth-floor",
+          "name": "Sixth Floor Museum",
+          "type": "attraction",
+          "coords": {
+            "lat": 32.779,
+            "lng": -96.8088
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "Sixth Floor Museum — planned stop.",
+          "links": {
+            "official": "https://www.jfk.org/"
+          },
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 4,
+            "basis": "per hour"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 25,
+            "basis": "adult ticket"
+          }
+        },
+        {
+          "id": "deep-ellum",
+          "name": "Deep Ellum",
+          "type": "attraction",
+          "coords": {
+            "lat": 32.7836,
+            "lng": -96.785
+          },
+          "arrival_time": null,
+          "stay_duration_min": 90,
+          "description": "Deep Ellum — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "perot",
+          "name": "Perot Museum / Arboretum",
+          "type": "attraction",
+          "coords": {
+            "lat": 32.7869,
+            "lng": -96.8067
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "Perot Museum / Arboretum — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 4,
+            "basis": "per hour"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 25,
+            "basis": "adult ticket"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              32.779,
+              -96.8088
+            ],
+            [
+              32.7869,
+              -96.8067
+            ]
+          ],
+          "distance_km": 0.9,
+          "duration_min": 12,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "Dallas"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 18: Dallas → Lubbock",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "wichita-falls",
+          "name": "Wichita Falls stop",
+          "type": "attraction",
+          "coords": {
+            "lat": 33.9137,
+            "lng": -98.4934
+          },
+          "arrival_time": null,
+          "stay_duration_min": 30,
+          "description": "Wichita Falls stop — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 12,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "buddy-holly",
+          "name": "Buddy Holly Center",
+          "type": "attraction",
+          "coords": {
+            "lat": 33.5859,
+            "lng": -101.839
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Buddy Holly Center — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              33.9137,
+              -98.4934
+            ],
+            [
+              33.5859,
+              -101.839
+            ]
+          ],
+          "distance_km": 311.4,
+          "duration_min": 330,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 330,
+        "total_train_min": null,
+        "sleep": "Lubbock"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 19: Lubbock → Colorado Springs (via Amarillo)",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "cadillac-ranch",
+          "name": "Cadillac Ranch (Amarillo)",
+          "type": "attraction",
+          "coords": {
+            "lat": 35.1887,
+            "lng": -101.9876
+          },
+          "arrival_time": null,
+          "stay_duration_min": 45,
+          "description": "Cadillac Ranch (Amarillo) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [],
+          "distance_km": null,
+          "duration_min": 420,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 420,
+        "total_train_min": null,
+        "sleep": "Colorado Springs"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 20: Colorado Springs — Pikes Peak / Garden of the Gods",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "pikes-peak",
+          "name": "Pikes Peak Cog Railway",
+          "type": "attraction",
+          "coords": {
+            "lat": 38.8613,
+            "lng": -104.9339
+          },
+          "arrival_time": null,
+          "stay_duration_min": 210,
+          "description": "Reserve tickets.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "garden-gods",
+          "name": "Garden of the Gods",
+          "type": "attraction",
+          "coords": {
+            "lat": 38.8783,
+            "lng": -104.869
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "Garden of the Gods — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "manitou",
+          "name": "Manitou Springs",
+          "type": "attraction",
+          "coords": {
+            "lat": 38.8597,
+            "lng": -104.9172
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Manitou Springs — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              38.8613,
+              -104.9339
+            ],
+            [
+              38.8597,
+              -104.9172
+            ]
+          ],
+          "distance_km": 1.5,
+          "duration_min": 60,
+          "tolls": null,
+          "notes": "Local driving between sites."
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 60,
+        "total_train_min": null,
+        "sleep": "Colorado Springs"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 21: Colorado Springs → Denver (via Red Rocks)",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "red-rocks",
+          "name": "Red Rocks",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 39.6654,
+            "lng": -105.2057
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Red Rocks — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "denver-arrival",
+          "name": "Arrive Denver",
+          "type": "anchor",
+          "coords": {
+            "lat": 39.7526,
+            "lng": -105.0006
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Hotel downtown/near Union Station.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              39.6654,
+              -105.2057
+            ],
+            [
+              39.7526,
+              -105.0006
+            ]
+          ],
+          "distance_km": 20.0,
+          "duration_min": 90,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 90,
+        "total_train_min": null,
+        "sleep": "Denver"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 22: Denver — City day",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "union-station",
+          "name": "Union Station",
+          "type": "attraction",
+          "coords": {
+            "lat": 39.7526,
+            "lng": -105.0006
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Union Station — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 4,
+            "basis": "per hour"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "rino",
+          "name": "RiNo Arts District",
+          "type": "attraction",
+          "coords": {
+            "lat": 39.7684,
+            "lng": -104.9768
+          },
+          "arrival_time": null,
+          "stay_duration_min": 90,
+          "description": "RiNo Arts District — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "museums-parks",
+          "name": "Museums & Parks",
+          "type": "attraction",
+          "coords": {
+            "lat": 39.7392,
+            "lng": -104.9903
+          },
+          "arrival_time": null,
+          "stay_duration_min": 180,
+          "description": "Museums & Parks — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 4,
+            "basis": "per hour"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 25,
+            "basis": "adult ticket"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              39.7526,
+              -105.0006
+            ],
+            [
+              39.7392,
+              -104.9903
+            ]
+          ],
+          "distance_km": 1.7,
+          "duration_min": 23,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "Denver"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 23: Denver → Rocky Mountain NP → Denver",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "rmnp",
+          "name": "Rocky Mountain National Park",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.3111,
+            "lng": -105.6458
+          },
+          "arrival_time": null,
+          "stay_duration_min": 360,
+          "description": "Rocky Mountain National Park — planned stop.",
+          "links": {
+            "official": "https://www.nps.gov/romo/index.htm"
+          },
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 15,
+            "basis": "day lot"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 11,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 35,
+            "basis": "vehicle/day"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [],
+          "distance_km": null,
+          "duration_min": 240,
+          "tolls": null,
+          "notes": "Trail Ridge Road & Bear Lake area."
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 240,
+        "total_train_min": null,
+        "sleep": "Denver"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 24: Denver → Moab",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "vail",
+          "name": "Vail (stop)",
+          "type": "attraction",
+          "coords": {
+            "lat": 39.6403,
+            "lng": -106.3742
+          },
+          "arrival_time": null,
+          "stay_duration_min": 30,
+          "description": "Vail (stop) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "glenwood",
+          "name": "Glenwood Springs (stop)",
+          "type": "attraction",
+          "coords": {
+            "lat": 39.5505,
+            "lng": -107.3248
+          },
+          "arrival_time": null,
+          "stay_duration_min": 30,
+          "description": "Glenwood Springs (stop) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              39.6403,
+              -106.3742
+            ],
+            [
+              39.6403,
+              -106.3742
+            ],
+            [
+              39.5505,
+              -107.3248
+            ],
+            [
+              39.5505,
+              -107.3248
+            ]
+          ],
+          "distance_km": 82.1,
+          "duration_min": 360,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 360,
+        "total_train_min": null,
+        "sleep": "Moab"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 25: Moab — Arches NP",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "arches-np",
+          "name": "Arches National Park",
+          "type": "attraction",
+          "coords": {
+            "lat": 38.6469,
+            "lng": -109.6177
+          },
+          "arrival_time": null,
+          "stay_duration_min": 360,
+          "description": "Arches National Park — planned stop.",
+          "links": {
+            "official": "https://www.nps.gov/arch/index.htm"
+          },
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 15,
+            "basis": "day lot"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 12,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 35,
+            "basis": "vehicle/day"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [],
+          "distance_km": null,
+          "duration_min": 60,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 60,
+        "total_train_min": null,
+        "sleep": "Moab"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 26: Moab → Monument Valley (via Canyonlands)",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "canyonlands",
+          "name": "Canyonlands (Mesa Arch/Grand View)",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 38.3897,
+            "lng": -109.8682
+          },
+          "arrival_time": null,
+          "stay_duration_min": 180,
+          "description": "Canyonlands (Mesa Arch/Grand View) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 12,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "goosenecks",
+          "name": "Goosenecks State Park",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 37.174,
+            "lng": -109.926
+          },
+          "arrival_time": null,
+          "stay_duration_min": 45,
+          "description": "Goosenecks State Park — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "mv-sunset",
+          "name": "Monument Valley — Sunset",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 36.9989,
+            "lng": -110.098
+          },
+          "arrival_time": null,
+          "stay_duration_min": 90,
+          "description": "Monument Valley — Sunset — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              38.3897,
+              -109.8682
+            ],
+            [
+              38.3897,
+              -109.8682
+            ],
+            [
+              37.174,
+              -109.926
+            ],
+            [
+              36.9989,
+              -110.098
+            ]
+          ],
+          "distance_km": 160.0,
+          "duration_min": 300,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 300,
+        "total_train_min": null,
+        "sleep": "Monument Valley"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 27: Monument Valley → Grand Canyon (South Rim)",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "valley-drive",
+          "name": "Valley Drive (morning)",
+          "type": "attraction",
+          "coords": {
+            "lat": 36.9818,
+            "lng": -110.1125
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "Valley Drive (morning) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "cameron",
+          "name": "Cameron Trading Post",
+          "type": "food",
+          "coords": {
+            "lat": 35.8648,
+            "lng": -111.4088
+          },
+          "arrival_time": null,
+          "stay_duration_min": 45,
+          "description": "Cameron Trading Post — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "variable"
+          }
+        },
+        {
+          "id": "gc-south-rim",
+          "name": "Grand Canyon South Rim",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 36.0594,
+            "lng": -112.1091
+          },
+          "arrival_time": null,
+          "stay_duration_min": 240,
+          "description": "Grand Canyon South Rim — planned stop.",
+          "links": {
+            "official": "https://www.nps.gov/grca/index.htm"
+          },
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 12,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              36.9818,
+              -110.1125
+            ],
+            [
+              35.8648,
+              -111.4088
+            ],
+            [
+              36.0594,
+              -112.1091
+            ]
+          ],
+          "distance_km": 236.6,
+          "duration_min": 300,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 300,
+        "total_train_min": null,
+        "sleep": "Tusayan/Grand Canyon area"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 28: Grand Canyon → Las Vegas (via Hoover Dam)",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "rim-trail",
+          "name": "Grand Canyon morning — Rim Trail/short hike",
+          "type": "attraction",
+          "coords": {
+            "lat": 36.0575,
+            "lng": -112.1431
+          },
+          "arrival_time": null,
+          "stay_duration_min": 150,
+          "description": "Grand Canyon morning — Rim Trail/short hike — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 15,
+            "basis": "day lot"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "hoover-dam",
+          "name": "Hoover Dam",
+          "type": "attraction",
+          "coords": {
+            "lat": 36.0156,
+            "lng": -114.7377
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Hoover Dam — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              36.0575,
+              -112.1431
+            ],
+            [
+              36.0156,
+              -114.7377
+            ],
+            [
+              36.0156,
+              -114.7377
+            ]
+          ],
+          "distance_km": 233.3,
+          "duration_min": 300,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 300,
+        "total_train_min": null,
+        "sleep": "Las Vegas"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 29: Las Vegas — City day (Red Rock Canyon)",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "red-rock-canyon",
+          "name": "Red Rock Canyon",
+          "type": "attraction",
+          "coords": {
+            "lat": 36.1366,
+            "lng": -115.4236
+          },
+          "arrival_time": null,
+          "stay_duration_min": 150,
+          "description": "Red Rock Canyon — planned stop.",
+          "links": {
+            "official": "https://www.redrockcanyonlv.org/"
+          },
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 12,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 15,
+            "basis": "vehicle/day"
+          }
+        },
+        {
+          "id": "vegas-strip",
+          "name": "The Strip / Fremont",
+          "type": "attraction",
+          "coords": {
+            "lat": 36.1147,
+            "lng": -115.1728
+          },
+          "arrival_time": null,
+          "stay_duration_min": 180,
+          "description": "The Strip / Fremont — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              36.1366,
+              -115.4236
+            ],
+            [
+              36.1147,
+              -115.1728
+            ]
+          ],
+          "distance_km": 22.7,
+          "duration_min": 60,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 60,
+        "total_train_min": null,
+        "sleep": "Las Vegas"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 30: Las Vegas → Yosemite (Oakhurst/Valley)",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "kingman-66",
+          "name": "Route 66 — Kingman (short)",
+          "type": "attraction",
+          "coords": {
+            "lat": 35.1894,
+            "lng": -114.0522
+          },
+          "arrival_time": null,
+          "stay_duration_min": 30,
+          "description": "Route 66 — Kingman (short) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "calico",
+          "name": "Calico Ghost Town",
+          "type": "attraction",
+          "coords": {
+            "lat": 34.942,
+            "lng": -116.8645
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Calico Ghost Town — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "tehachapi-loop",
+          "name": "Tehachapi Loop viewpoint",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 35.2058,
+            "lng": -118.5386
+          },
+          "arrival_time": null,
+          "stay_duration_min": 20,
+          "description": "Tehachapi Loop viewpoint — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 15,
+            "basis": "day lot"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "tunnel-view",
+          "name": "Yosemite — Tunnel View (sunset)",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 37.7154,
+            "lng": -119.6768
+          },
+          "arrival_time": null,
+          "stay_duration_min": 45,
+          "description": "Yosemite — Tunnel View (sunset) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 15,
+            "basis": "day lot"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              35.1894,
+              -114.0522
+            ],
+            [
+              35.1894,
+              -114.0522
+            ],
+            [
+              34.942,
+              -116.8645
+            ],
+            [
+              35.2058,
+              -118.5386
+            ],
+            [
+              37.7154,
+              -119.6768
+            ]
+          ],
+          "distance_km": 709.6,
+          "duration_min": 540,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 540,
+        "total_train_min": null,
+        "sleep": "Yosemite/Oakhurst"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 31: Yosemite — Valley day",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "yosemite-falls",
+          "name": "Yosemite Falls",
+          "type": "attraction",
+          "coords": {
+            "lat": 37.7566,
+            "lng": -119.5967
+          },
+          "arrival_time": null,
+          "stay_duration_min": 90,
+          "description": "Yosemite Falls — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 15,
+            "basis": "day lot"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "cooks-meadow",
+          "name": "Cook’s Meadow Loop",
+          "type": "attraction",
+          "coords": {
+            "lat": 37.7446,
+            "lng": -119.5936
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Cook’s Meadow Loop — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "mirror-lake",
+          "name": "Mirror Lake",
+          "type": "attraction",
+          "coords": {
+            "lat": 37.7394,
+            "lng": -119.5349
+          },
+          "arrival_time": null,
+          "stay_duration_min": 90,
+          "description": "Mirror Lake — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "glacier-point",
+          "name": "Glacier Point (if open)",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 37.7304,
+            "lng": -119.573
+          },
+          "arrival_time": null,
+          "stay_duration_min": 90,
+          "description": "Glacier Point (if open) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              37.7566,
+              -119.5967
+            ],
+            [
+              37.7304,
+              -119.573
+            ]
+          ],
+          "distance_km": 3.6,
+          "duration_min": 120,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 120,
+        "total_train_min": null,
+        "sleep": "Yosemite/Oakhurst"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 32: Yosemite → San Diego",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "fresno-stop",
+          "name": "Fresno stop",
+          "type": "food",
+          "coords": {
+            "lat": 36.7378,
+            "lng": -119.7871
+          },
+          "arrival_time": null,
+          "stay_duration_min": 45,
+          "description": "Fresno stop — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "variable"
+          }
+        },
+        {
+          "id": "bakersfield-stop",
+          "name": "Bakersfield stop",
+          "type": "food",
+          "coords": {
+            "lat": 35.3733,
+            "lng": -119.0187
+          },
+          "arrival_time": null,
+          "stay_duration_min": 30,
+          "description": "Bakersfield stop — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "variable"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              36.7378,
+              -119.7871
+            ],
+            [
+              36.7378,
+              -119.7871
+            ],
+            [
+              35.3733,
+              -119.0187
+            ],
+            [
+              35.3733,
+              -119.0187
+            ]
+          ],
+          "distance_km": 166.7,
+          "duration_min": 540,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 540,
+        "total_train_min": null,
+        "sleep": "San Diego"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 33: San Diego → Los Angeles (Amtrak Pacific Surfliner)",
+      "transport_hint": "train",
+      "points": [
+        {
+          "id": "san-diego-depot",
+          "name": "San Diego depot",
+          "type": "transit_hub",
+          "coords": {
+            "lat": 32.716,
+            "lng": -117.1692
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Board Surfliner.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "la-union",
+          "name": "Los Angeles Union Station",
+          "type": "transit_hub",
+          "coords": {
+            "lat": 34.0562,
+            "lng": -118.2365
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Los Angeles Union Station — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 4,
+            "basis": "per hour"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "la-evening",
+          "name": "LA evening (Hollywood/BH/Santa Monica)",
+          "type": "attraction",
+          "coords": {
+            "lat": 34.1016,
+            "lng": -118.3269
+          },
+          "arrival_time": null,
+          "stay_duration_min": 240,
+          "description": "LA evening (Hollywood/BH/Santa Monica) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "train",
+          "polyline": [
+            [
+              32.716,
+              -117.1692
+            ],
+            [
+              34.1016,
+              -118.3269
+            ]
+          ],
+          "distance_km": 187.8,
+          "duration_min": 180,
+          "tolls": null,
+          "notes": "Surfliner coastal views."
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": 180,
+        "sleep": "Los Angeles"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 34: Los Angeles → San Francisco (Amtrak Coast Starlight)",
+      "transport_hint": "train",
+      "points": [
+        {
+          "id": "la-union-depart",
+          "name": "Depart LA Union Station",
+          "type": "transit_hub",
+          "coords": {
+            "lat": 34.0562,
+            "lng": -118.2365
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Depart LA Union Station — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 4,
+            "basis": "per hour"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "sf-arrival",
+          "name": "Arrive San Francisco (via Oakland/transfer)",
+          "type": "transit_hub",
+          "coords": {
+            "lat": 37.7786,
+            "lng": -122.3893
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Arrive San Francisco (via Oakland/transfer) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "train",
+          "polyline": [
+            [
+              34.0562,
+              -118.2365
+            ],
+            [
+              37.7786,
+              -122.3893
+            ]
+          ],
+          "distance_km": 557.7,
+          "duration_min": 690,
+          "tolls": null,
+          "notes": "Coast Starlight scenic sections."
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": 690,
+        "sleep": "San Francisco"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 35: San Francisco — City day 1",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "golden-gate",
+          "name": "Golden Gate Bridge",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 37.8199,
+            "lng": -122.4783
+          },
+          "arrival_time": null,
+          "stay_duration_min": 90,
+          "description": "Golden Gate Bridge — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "pier39",
+          "name": "Fisherman’s Wharf / Pier 39",
+          "type": "attraction",
+          "coords": {
+            "lat": 37.8087,
+            "lng": -122.4098
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "Fisherman’s Wharf / Pier 39 — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "chinatown",
+          "name": "Chinatown / North Beach",
+          "type": "attraction",
+          "coords": {
+            "lat": 37.7941,
+            "lng": -122.4078
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "Chinatown / North Beach — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              37.8199,
+              -122.4783
+            ],
+            [
+              37.7941,
+              -122.4078
+            ]
+          ],
+          "distance_km": 6.8,
+          "duration_min": 91,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "San Francisco"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 36: San Francisco — City day 2",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "alcatraz",
+          "name": "Alcatraz (reserve ahead)",
+          "type": "attraction",
+          "coords": {
+            "lat": 37.8267,
+            "lng": -122.423
+          },
+          "arrival_time": null,
+          "stay_duration_min": 180,
+          "description": "Alcatraz (reserve ahead) — planned stop.",
+          "links": {
+            "tickets": "https://www.cityexperiences.com/san-francisco/city-cruises/alcatraz/"
+          },
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "gg-park",
+          "name": "Golden Gate Park",
+          "type": "attraction",
+          "coords": {
+            "lat": 37.7694,
+            "lng": -122.4862
+          },
+          "arrival_time": null,
+          "stay_duration_min": 150,
+          "description": "Golden Gate Park — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "twin-peaks",
+          "name": "Twin Peaks",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 37.7544,
+            "lng": -122.4477
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Twin Peaks — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              37.8267,
+              -122.423
+            ],
+            [
+              37.7544,
+              -122.4477
+            ]
+          ],
+          "distance_km": 8.3,
+          "duration_min": 111,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "San Francisco"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 37: San Francisco → Cupertino visit → Night train north",
+      "transport_hint": "train",
+      "points": [
+        {
+          "id": "caltrain-out",
+          "name": "Caltrain to Sunnyvale/Lawrence",
+          "type": "transit_hub",
+          "coords": {
+            "lat": 37.7764,
+            "lng": -122.3942
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Caltrain to Sunnyvale/Lawrence — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "apple-park-vc",
+          "name": "Apple Park Visitor Center",
+          "type": "attraction",
+          "coords": {
+            "lat": 37.3349,
+            "lng": -122.009
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Apple Park Visitor Center — planned stop.",
+          "links": {
+            "official": "https://www.apple.com/retail/appleparkvisitorcenter/"
+          },
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "return-sf",
+          "name": "Return to SF & board northbound",
+          "type": "transit_hub",
+          "coords": {
+            "lat": 37.7764,
+            "lng": -122.3942
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Return to SF & board northbound — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "train",
+          "polyline": [
+            [
+              37.7764,
+              -122.3942
+            ],
+            [
+              37.7764,
+              -122.3942
+            ]
+          ],
+          "distance_km": 0.0,
+          "duration_min": 120,
+          "tolls": null,
+          "notes": "Caltrain roundtrip + overnight boarding to Portland."
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": 120,
+        "sleep": "On train (overnight)"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 38: Portland — City day",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "washington-park",
+          "name": "Washington Park (Japanese/Rose)",
+          "type": "attraction",
+          "coords": {
+            "lat": 45.5194,
+            "lng": -122.7083
+          },
+          "arrival_time": null,
+          "stay_duration_min": 180,
+          "description": "Washington Park (Japanese/Rose) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "powells",
+          "name": "Powell’s Books",
+          "type": "attraction",
+          "coords": {
+            "lat": 45.5231,
+            "lng": -122.6819
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Powell’s Books — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "pearl",
+          "name": "Downtown / Pearl District",
+          "type": "attraction",
+          "coords": {
+            "lat": 45.5291,
+            "lng": -122.6845
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "Downtown / Pearl District — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 4,
+            "basis": "per hour"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              45.5194,
+              -122.7083
+            ],
+            [
+              45.5291,
+              -122.6845
+            ]
+          ],
+          "distance_km": 2.1,
+          "duration_min": 28,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "Portland"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 39: Portland → Seattle (Amtrak Cascades)",
+      "transport_hint": "train",
+      "points": [
+        {
+          "id": "portland-depart",
+          "name": "Depart Portland",
+          "type": "transit_hub",
+          "coords": {
+            "lat": 45.5289,
+            "lng": -122.6765
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Depart Portland — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "seattle-arrive",
+          "name": "Arrive Seattle",
+          "type": "transit_hub",
+          "coords": {
+            "lat": 47.5984,
+            "lng": -122.3303
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Arrive Seattle — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "train",
+          "polyline": [
+            [
+              45.5289,
+              -122.6765
+            ],
+            [
+              47.5984,
+              -122.3303
+            ]
+          ],
+          "distance_km": 231.6,
+          "duration_min": 210,
+          "tolls": null,
+          "notes": "Columbia River scenery."
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": 210,
+        "sleep": "Seattle"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 40: Seattle — City day",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "pike-place",
+          "name": "Pike Place Market",
+          "type": "attraction",
+          "coords": {
+            "lat": 47.6097,
+            "lng": -122.3425
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "Pike Place Market — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 4,
+            "basis": "per hour"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "space-needle",
+          "name": "Space Needle",
+          "type": "attraction",
+          "coords": {
+            "lat": 47.6205,
+            "lng": -122.3493
+          },
+          "arrival_time": null,
+          "stay_duration_min": 90,
+          "description": "Space Needle — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "mopop",
+          "name": "MoPOP & Chihuly Garden",
+          "type": "attraction",
+          "coords": {
+            "lat": 47.6215,
+            "lng": -122.348
+          },
+          "arrival_time": null,
+          "stay_duration_min": 180,
+          "description": "MoPOP & Chihuly Garden — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "waterfront",
+          "name": "Waterfront walk",
+          "type": "attraction",
+          "coords": {
+            "lat": 47.6062,
+            "lng": -122.3425
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Waterfront walk — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              47.6097,
+              -122.3425
+            ],
+            [
+              47.6062,
+              -122.3425
+            ]
+          ],
+          "distance_km": 0.4,
+          "duration_min": 5,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "Seattle"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 41: Seattle → Night train to Glacier (Empire Builder)",
+      "transport_hint": "train",
+      "points": [
+        {
+          "id": "seattle-depart",
+          "name": "Depart Seattle (Empire Builder)",
+          "type": "transit_hub",
+          "coords": {
+            "lat": 47.5984,
+            "lng": -122.3303
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Depart Seattle (Empire Builder) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "train",
+          "polyline": [],
+          "distance_km": null,
+          "duration_min": 960,
+          "tolls": null,
+          "notes": "Overnight segment."
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": 960,
+        "sleep": "On train (overnight)"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 42: Glacier NP — Day 1",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "gtsr",
+          "name": "Going-to-the-Sun Road",
+          "type": "attraction",
+          "coords": {
+            "lat": 48.696,
+            "lng": -113.7161
+          },
+          "arrival_time": null,
+          "stay_duration_min": 240,
+          "description": "Going-to-the-Sun Road — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 11,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "logan-pass",
+          "name": "Logan Pass",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 48.6961,
+            "lng": -113.7183
+          },
+          "arrival_time": null,
+          "stay_duration_min": 90,
+          "description": "Logan Pass — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "hidden-lake",
+          "name": "Hidden Lake Overlook",
+          "type": "attraction",
+          "coords": {
+            "lat": 48.6979,
+            "lng": -113.7433
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "Hidden Lake Overlook — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              48.696,
+              -113.7161
+            ],
+            [
+              48.6979,
+              -113.7433
+            ]
+          ],
+          "distance_km": 2.0,
+          "duration_min": 150,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 150,
+        "total_train_min": null,
+        "sleep": "Glacier NP vicinity"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 43: Glacier NP — Day 2",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "many-glacier",
+          "name": "Many Glacier Valley",
+          "type": "attraction",
+          "coords": {
+            "lat": 48.7946,
+            "lng": -113.6735
+          },
+          "arrival_time": null,
+          "stay_duration_min": 360,
+          "description": "Many Glacier Valley — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 12,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "grinnell",
+          "name": "Grinnell Glacier (full day or easier)",
+          "type": "attraction",
+          "coords": {
+            "lat": 48.7913,
+            "lng": -113.6575
+          },
+          "arrival_time": null,
+          "stay_duration_min": 360,
+          "description": "Grinnell Glacier (full day or easier) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 12,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              48.7946,
+              -113.6735
+            ],
+            [
+              48.7913,
+              -113.6575
+            ]
+          ],
+          "distance_km": 1.2,
+          "duration_min": 120,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 120,
+        "total_train_min": null,
+        "sleep": "Glacier NP vicinity"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 44: Glacier NP → Minneapolis (Empire Builder)",
+      "transport_hint": "train",
+      "points": [
+        {
+          "id": "glacier-depart",
+          "name": "Depart for Minneapolis (PM)",
+          "type": "transit_hub",
+          "coords": {
+            "lat": 48.5539,
+            "lng": -113.0086
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Depart for Minneapolis (PM) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 12,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "train",
+          "polyline": [],
+          "distance_km": null,
+          "duration_min": 1200,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": 1200,
+        "sleep": "On train"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 45: Minneapolis — City day 1",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "stone-arch",
+          "name": "Stone Arch Bridge",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 44.9817,
+            "lng": -93.2533
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Stone Arch Bridge — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "riverfront",
+          "name": "Riverfront",
+          "type": "attraction",
+          "coords": {
+            "lat": 44.9808,
+            "lng": -93.2578
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Riverfront — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              44.9817,
+              -93.2533
+            ],
+            [
+              44.9808,
+              -93.2578
+            ]
+          ],
+          "distance_km": 0.4,
+          "duration_min": 5,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "Minneapolis"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 46: Minneapolis — City day 2",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "minnehaha",
+          "name": "Minnehaha Falls",
+          "type": "viewpoint",
+          "coords": {
+            "lat": 44.9154,
+            "lng": -93.2116
+          },
+          "arrival_time": null,
+          "stay_duration_min": 90,
+          "description": "Minnehaha Falls — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "walker",
+          "name": "Walker Art Center & Sculpture Garden",
+          "type": "attraction",
+          "coords": {
+            "lat": 44.9689,
+            "lng": -93.2886
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "Walker Art Center & Sculpture Garden — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "mall-of-america",
+          "name": "Mall of America",
+          "type": "attraction",
+          "coords": {
+            "lat": 44.8547,
+            "lng": -93.2422
+          },
+          "arrival_time": null,
+          "stay_duration_min": 180,
+          "description": "Mall of America — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              44.9154,
+              -93.2116
+            ],
+            [
+              44.8547,
+              -93.2422
+            ]
+          ],
+          "distance_km": 7.2,
+          "duration_min": 96,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "Minneapolis"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 47: Minneapolis → Chicago (Empire Builder)",
+      "transport_hint": "train",
+      "points": [
+        {
+          "id": "minneapolis-depart",
+          "name": "Depart Minneapolis (Empire Builder)",
+          "type": "transit_hub",
+          "coords": {
+            "lat": 44.948,
+            "lng": -93.1
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Depart Minneapolis (Empire Builder) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 13,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "chicago-arrive",
+          "name": "Arrive Chicago",
+          "type": "transit_hub",
+          "coords": {
+            "lat": 41.8786,
+            "lng": -87.6405
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Arrive Chicago — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "train",
+          "polyline": [
+            [
+              44.948,
+              -93.1
+            ],
+            [
+              41.8786,
+              -87.6405
+            ]
+          ],
+          "distance_km": 557.4,
+          "duration_min": 490,
+          "tolls": null,
+          "notes": "Mississippi River scenic stretch."
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": 490,
+        "sleep": "Chicago"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 48: Chicago — City day",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "millennium",
+          "name": "Millennium Park (Bean)",
+          "type": "attraction",
+          "coords": {
+            "lat": 41.8826,
+            "lng": -87.6226
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Millennium Park (Bean) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "art-institute",
+          "name": "Art Institute of Chicago",
+          "type": "attraction",
+          "coords": {
+            "lat": 41.8796,
+            "lng": -87.6237
+          },
+          "arrival_time": null,
+          "stay_duration_min": 150,
+          "description": "Art Institute of Chicago — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "boat-architecture",
+          "name": "Architecture Boat Tour",
+          "type": "attraction",
+          "coords": {
+            "lat": 41.8889,
+            "lng": -87.6264
+          },
+          "arrival_time": null,
+          "stay_duration_min": 90,
+          "description": "Architecture Boat Tour — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "mag-mile",
+          "name": "Magnificent Mile",
+          "type": "attraction",
+          "coords": {
+            "lat": 41.8947,
+            "lng": -87.6243
+          },
+          "arrival_time": null,
+          "stay_duration_min": 120,
+          "description": "Magnificent Mile — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              41.8826,
+              -87.6226
+            ],
+            [
+              41.8947,
+              -87.6243
+            ]
+          ],
+          "distance_km": 1.4,
+          "duration_min": 19,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "Chicago"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 49: Chicago → Night train to NYC (Lake Shore Limited)",
+      "transport_hint": "train",
+      "points": [
+        {
+          "id": "chicago-depart",
+          "name": "Depart Chicago (21:30)",
+          "type": "transit_hub",
+          "coords": {
+            "lat": 41.8786,
+            "lng": -87.6405
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Depart Chicago (21:30) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 15,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "train",
+          "polyline": [],
+          "distance_km": null,
+          "duration_min": 990,
+          "tolls": null,
+          "notes": "Great Lakes & Hudson Valley."
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": 990,
+        "sleep": "On train (overnight)"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 50: Arrive NYC — Evening",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "nyc-arrival",
+          "name": "Arrive NYC evening",
+          "type": "anchor",
+          "coords": {
+            "lat": 40.7527,
+            "lng": -73.9772
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Arrive NYC evening — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "times-square-2",
+          "name": "Times Square stroll",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.758,
+            "lng": -73.9855
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Times Square stroll — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              40.7527,
+              -73.9772
+            ],
+            [
+              40.758,
+              -73.9855
+            ]
+          ],
+          "distance_km": 0.9,
+          "duration_min": 12,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "New York"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 51: NYC — Buffer day",
+      "transport_hint": null,
+      "points": [
+        {
+          "id": "liberty2",
+          "name": "Statue of Liberty (if missed)",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.6892,
+            "lng": -74.0445
+          },
+          "arrival_time": null,
+          "stay_duration_min": 180,
+          "description": "Statue of Liberty (if missed) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "central-park-2",
+          "name": "Central Park time",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.7829,
+            "lng": -73.9654
+          },
+          "arrival_time": null,
+          "stay_duration_min": 90,
+          "description": "Central Park time — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 14,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "broadway2",
+          "name": "Broadway evening (optional)",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.759,
+            "lng": -73.9845
+          },
+          "arrival_time": null,
+          "stay_duration_min": 180,
+          "description": "Broadway evening (optional) — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "walk",
+          "polyline": [
+            [
+              40.6892,
+              -74.0445
+            ],
+            [
+              40.759,
+              -73.9845
+            ]
+          ],
+          "distance_km": 9.3,
+          "duration_min": 124,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": null,
+        "total_train_min": null,
+        "sleep": "New York"
+      },
+      "items": []
+    },
+    {
+      "title": "Day 52: NYC → Flight back to TLV",
+      "transport_hint": "drive",
+      "points": [
+        {
+          "id": "brooklyn-bridge",
+          "name": "Brooklyn Bridge",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.7061,
+            "lng": -73.9969
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "Brooklyn Bridge — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "dumbo",
+          "name": "DUMBO",
+          "type": "attraction",
+          "coords": {
+            "lat": 40.7033,
+            "lng": -73.9881
+          },
+          "arrival_time": null,
+          "stay_duration_min": 60,
+          "description": "DUMBO — planned stop.",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 16,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        },
+        {
+          "id": "to-airport",
+          "name": "Transfer to JFK/EWR",
+          "type": "transit_hub",
+          "coords": {
+            "lat": 40.6413,
+            "lng": -73.7781
+          },
+          "arrival_time": null,
+          "stay_duration_min": null,
+          "description": "Airport transfer",
+          "links": {},
+          "van_parking_type": null,
+          "parking_coords": null,
+          "parking_cost": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unknown"
+          },
+          "parking_height_limit": null,
+          "parking_notes": null,
+          "map_zoom_hint": 11,
+          "city": null,
+          "notes": null,
+          "price_estimate": {
+            "currency": "USD",
+            "amount": 0,
+            "basis": "unspecified"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "mode": "drive",
+          "polyline": [
+            [
+              40.7061,
+              -73.9969
+            ],
+            [
+              40.6413,
+              -73.7781
+            ]
+          ],
+          "distance_km": 19.8,
+          "duration_min": 60,
+          "tolls": null,
+          "notes": null
+        }
+      ],
+      "summary": {
+        "planned_departure": null,
+        "planned_arrival": null,
+        "total_drive_min": 60,
+        "total_train_min": null,
+        "sleep": "—"
+      },
+      "items": []
+    }
+  ]
+}
